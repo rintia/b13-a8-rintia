@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Silent Forest",
+    "author": "Ayesha Rahman",
+    "description": "A mysterious tale of a village surrounded by a forest where secrets whisper through the trees.",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://picsum.photos/seed/book1/400/600"
+  },
+  {
+    "id": 2,
+    "title": "Code Beyond Limits",
+    "author": "Imran Hossain",
+    "description": "An advanced guide to pushing the boundaries of modern programming and software design.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://picsum.photos/seed/book2/400/600"
+  },
+  {
+    "id": 3,
+    "title": "Journey to Mars",
+    "author": "Nadia Karim",
+    "description": "A scientific exploration of humanity’s future mission to the red planet.",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://picsum.photos/seed/book3/400/600"
+  },
+  {
+    "id": 4,
+    "title": "Whispers of the Night",
+    "author": "Tanvir Ahmed",
+    "description": "A suspenseful story of hidden truths revealed under the cover of darkness.",
+    "category": "Story",
+    "available_quantity": 6,
+    "image_url": "https://picsum.photos/seed/book4/400/600"
+  },
+  {
+    "id": 5,
+    "title": "AI Revolution",
+    "author": "Sara Khan",
+    "description": "An introduction to artificial intelligence and its impact on the modern world.",
+    "category": "Tech",
+    "available_quantity": 10,
+    "image_url": "https://picsum.photos/seed/book5/400/600"
+  },
+  {
+    "id": 6,
+    "title": "Quantum Wonders",
+    "author": "Dr. Farid Alam",
+    "description": "A deep dive into the strange and fascinating world of quantum physics.",
+    "category": "Science",
+    "available_quantity": 3,
+    "image_url": "https://picsum.photos/seed/book6/400/600"
+  },
+  {
+    "id": 7,
+    "title": "The Lost City",
+    "author": "Mariam Sultana",
+    "description": "An adventurous story about explorers discovering an ancient hidden civilization.",
+    "category": "Story",
+    "available_quantity": 7,
+    "image_url": "https://picsum.photos/seed/book7/400/600"
+  },
+  {
+    "id": 8,
+    "title": "Web Development Mastery",
+    "author": "Rakib Chowdhury",
+    "description": "A complete roadmap to becoming a professional web developer.",
+    "category": "Tech",
+    "available_quantity": 9,
+    "image_url": "https://picsum.photos/seed/book8/400/600"
+  },
+  {
+    "id": 9,
+    "title": "The Human Brain",
+    "author": "Dr. Nusrat Jahan",
+    "description": "An insightful look into how the human brain functions and evolves.",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url": "https://picsum.photos/seed/book9/400/600"
+  },
+  {
+    "id": 10,
+    "title": "Echoes of the Past",
+    "author": "Fahim Uddin",
+    "description": "A historical fiction story that intertwines past and present lives.",
+    "category": "Story",
+    "available_quantity": 6,
+    "image_url": "https://picsum.photos/seed/book10/400/600"
+  },
+  {
+    "id": 11,
+    "title": "Cybersecurity Essentials",
+    "author": "Nabil Hasan",
+    "description": "A practical guide to protecting systems and data in the digital age.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://picsum.photos/seed/book11/400/600"
+  },
+  {
+    "id": 12,
+    "title": "Climate Change Explained",
+    "author": "Dr. Laila Anwar",
+    "description": "A clear explanation of climate change and its global impact.",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://picsum.photos/seed/book12/400/600"
+  }
+]
