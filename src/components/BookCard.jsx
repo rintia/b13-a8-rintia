@@ -22,7 +22,7 @@ const BookCard = ({book}) => {
             </div>
 
          
-     <Link href={`/all-photos/${book.id}`}>      <Button variant="outline" className={'w-full'}>View Details</Button></Link>
+     <Link href={`/all-books/${book.id}`}>      <Button variant="outline" className={'w-full'}>View Details</Button></Link>
             
         </Card>
     );
