@@ -6,7 +6,11 @@ const nextConfig = {
     remotePatterns: [
       {
         hostname: 'nli.ie'
-      }
+      },
+       {
+      protocol: 'https',
+      hostname: 'picsum.photos'
+    }
     ]
   }
 };

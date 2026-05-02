@@ -1,7 +1,7 @@
 import Banner from "@/components/Banner";
+import Featured from "@/components/Featured";
 import MarqueeSection from "@/components/MarqueeSection";
-import Marquee from "@/components/MarqueeSection";
-import Image from "next/image";
+
 
 
 export default function Home() {
@@ -9,6 +9,7 @@ export default function Home() {
     <div>
       <Banner />
       <MarqueeSection></MarqueeSection>
+      <Featured/>
       
     </div>
   );
