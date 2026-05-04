@@ -11,6 +11,7 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { GrGoogle } from "react-icons/gr";
 import { toast } from "react-toastify";
@@ -18,6 +19,9 @@ import { toast } from "react-toastify";
 export default function SignUpPage() {
 
     const router = useRouter()
+     const handleSignOut = async () => {
+    await authClient.signOut();
+  }
 
   const onSubmit = async (e) => {
     e.preventDefault();
@@ -38,8 +42,9 @@ export default function SignUpPage() {
     console.log({data, error})
 
     if(!error) {
-        router.push('/')
-        toast.success('Sign in successful')
+      handleSignOut
+        router.push('/signin')
+        toast.success('Register successful')
     }
     else{
       toast.error(data.message || "Signup failed ❌");
@@ -55,7 +60,7 @@ export default function SignUpPage() {
 
   return (
     <Card className="border mx-auto w-125 py-10 mt-5">
-      <h1 className="text-center text-2xl font-bold">Sign Up</h1>
+      <h1 className="text-center text-2xl font-bold">Register</h1>
 
       <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
         <TextField isRequired name="name" type="text">
@@ -122,6 +127,9 @@ export default function SignUpPage() {
           <Button type="reset" variant="secondary">
             Reset
           </Button>
+        </div>
+        <div>
+        <h1>Already have an account. <span className="underline"><Link href={'/signin'}>Login Now</Link></span></h1>
         </div>
       </Form>
           <p className="text-center">Or</p>

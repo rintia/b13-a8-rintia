@@ -46,10 +46,10 @@ const Navbar = () => {
           {!user && (
             <ul className="flex items-center  text-sm gap-5">
               <li>
-                <Link href={"/signup"}>SignUp</Link>
+                <Link href={"/signup"}>Register</Link>
               </li>
               <li>
-                <Link href={"/signin"}>SignIn</Link>
+                <Link href={"/signin"}>Login</Link>
               </li>
             </ul>
           )}

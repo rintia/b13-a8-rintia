@@ -11,6 +11,7 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import Link from "next/link";
 import { GrGoogle } from "react-icons/gr";
 import { toast } from "react-toastify";
 
@@ -45,7 +46,7 @@ const LoginPage = () => {
   }
     return (
             <Card className="border mx-auto w-125 py-10 mt-5">
-      <h1 className="text-center text-2xl font-bold">Log In</h1>
+      <h1 className="text-center text-2xl font-bold">Login</h1>
 
       <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
         <TextField
@@ -101,6 +102,9 @@ const LoginPage = () => {
             Reset
           </Button>
         </div>
+        <div>
+                <h1>Don't have an account. <span className="underline"><Link href={'/signup'}>Register Now</Link></span></h1>
+                </div>
       </Form>
 
       <p className="text-center">Or</p>
