@@ -1,8 +1,10 @@
+
 import { authClient } from '@/lib/auth-client';
 import { Button } from '@heroui/react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
+
 import React from 'react';
 import { toast } from 'react-toastify';
 
@@ -14,7 +16,7 @@ const BookDetails = async({params}) => {
     const book = books.find(b => b.id == id)
      const userData = authClient.useSession();
       const user = userData.data?.user;
-      const router = useRouter();
+      const router = useRouter()
     const handleBorrow = async() =>{
         if(user){
             toast.success('Book borrowed successfully')
