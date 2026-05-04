@@ -30,10 +30,10 @@ const LoginPage = () => {
     console.log({ data, error });
      if(!error) {
         router.push('/')
-        toast.success('Sign in Successful')
+        toast.success('Login Successful')
     }
     else{
-      toast.error(data.message || "Signin failed ❌");
+      toast.error(data.message || "Login failed ❌");
         return;
     }
   };
