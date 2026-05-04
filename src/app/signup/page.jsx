@@ -13,6 +13,7 @@ import {
 } from "@heroui/react";
 import { useRouter } from "next/navigation";
 import { GrGoogle } from "react-icons/gr";
+import { toast } from "react-toastify";
 
 export default function SignUpPage() {
 
@@ -38,6 +39,11 @@ export default function SignUpPage() {
 
     if(!error) {
         router.push('/')
+        toast.success('Sign in successful')
+    }
+    else{
+      toast.error(data.message || "Signup failed ❌");
+        return;
     }
 
   };
