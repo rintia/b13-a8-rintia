@@ -9,7 +9,7 @@ const Featured = async () => {
             <div>
             <h1 className="text-2xl font-bold my-5">Featured Books</h1>
 
-            <div className="grid grid-cols-4 gap-5">
+            <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                 {featuredBooks.map(book => <BookCard key={book.id} book={book} />)}
             </div>
         </div>
