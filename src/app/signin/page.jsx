@@ -46,7 +46,7 @@ const LoginPage = () => {
     })
   }
     return (
-            <Card className="border mx-auto lg::w-125 py-10 mt-5">
+            <Card className="border mx-auto w-full md:w-1/2 lg:w-1/3 py-10 mt-5">
       <h1 className="text-center text-2xl font-bold">Login</h1>
 
       <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
